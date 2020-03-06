@@ -1,0 +1,78 @@
+.abt {
+  height: 100vh;
+  position: relative;
+  .abt_cnt {
+    background-color: #343a40;
+    margin: 50px 200px;
+    padding: 50px;
+    height: 1000px;
+
+    h1 {
+      text-align: center;
+      color: honeydew;
+      font-family: "Montserrat";
+      position: absolute;
+      font-size: 4rem;
+      top: 25%;
+      left: 52%;
+      transform: translate(-50%, 50%);
+    }
+    p {
+      width: 700px;
+      text-align: center;
+      word-spacing: 0.5rem;
+      line-height: 3rem;
+      font-size: 1.3rem;
+      font-family: "Montserrat";
+      position: absolute;
+      left: 35%;
+      top: 40%;
+      color: ivory;
+    }
+  }
+}
+.teamSection {
+  .our_team_cnt {
+    height: 100vh;
+    background-color: #343a40;
+    margin: 150px 200px;
+    padding: 50px;
+
+    h2 {
+      position: absolute;
+      top: 130%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-family: "Montserrat";
+      font-size: 4rem;
+      color: honeydew;
+    }
+    .team_flex {
+      display: flex;
+      position: absolute;
+      top: 1500px;
+      left: 10px;
+      justify-content: space-evenly;
+      width: 100%;
+      .img {
+        height: 100px;
+        width: 100px;
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+      }
+      h3 {
+        color: honeydew;
+        font-family: "Montserrat";
+        text-align: center;
+      }
+      p {
+        color: honeydew;
+        font-family: "Montserrat";
+        width: 350px;
+        text-align: center;
+        font-size: 1.5rem;
+      }
+    }
+  }
+}

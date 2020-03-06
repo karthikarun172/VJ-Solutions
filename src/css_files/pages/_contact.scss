@@ -1,0 +1,72 @@
+.contacts {
+  position: relative;
+  background-image: url("../images/contact_bgs.png");
+  height: 100vh;
+  h2 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Montserrat";
+  }
+  .contact_box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 700px;
+    width: 700px;
+    background-color: none;
+    box-shadow: 12px 12px 22px black;
+
+    .contact_form {
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      .name_box {
+        box-shadow: 12px 12px 23px black;
+        width: 300px;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 10px;
+        font-family: "Montserrat";
+      }
+      .email_box {
+        margin-top: 30px;
+        width: 300px;
+        box-shadow: 12px 12px 23px black;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 10px;
+        font-family: "Montserrat";
+      }
+      .Query {
+        margin-top: 30px;
+        width: 300px;
+        height: 100px;
+        box-shadow: 12px 12px 23px black;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 10px;
+        font-family: "Montserrat";
+      }
+    }
+    .contact_btn {
+      background-color: white;
+      padding: 5px 20px;
+      border-radius: 10px;
+      color: red;
+      outline: none;
+      font-weight: bold;
+      position: absolute;
+      top: 75%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border: none;
+
+      box-shadow: 12px 12px 22px black;
+    }
+  }
+}
